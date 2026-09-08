@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Restaurant & Food Delivery Portal</title>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant & Food Delivery Portal</h1>
+        <p>Explore our menu, restaurant services, chef story and ordering options.</p>
+    </header>
+
+    <nav>
+        <a href="#restaurant">Restaurant</a> |
+        <a href="#menu">Menu</a> |
+        <a href="#chef">Chef</a> |
+        <a href="#services">Services</a> |
+        <a href="#order">Order Now</a>
+    </nav>
+
+    <main>
+        <section id="restaurant">
+            <h2>Our Restaurant</h2>
+            <p>Welcome to our restaurant, where fresh ingredients, great recipes and friendly service come together.</p>
+            <p>We offer delicious meals for dine-in, takeaway and delivery.</p>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+                    alt="Restaurant interior" width="700">
+                <figcaption>Our restaurant dining area</figcaption>
+            </figure>
+
+            <article>
+                <h3>Restaurant Story</h3>
+                <p>Our restaurant started with a simple goal: to serve fresh and delicious food in a welcoming
+                    environment.</p>
+            </article>
+
+            <article id="chef">
+                <h3>Chef Profile</h3>
+                <p><strong>Chef:</strong> Arjun Kapoor</p>
+                <p>Our chef has years of experience creating Indian and international dishes.</p>
+            </article>
+
+            <p><strong>Special Offer:</strong> Get 10% off on selected family meals.</p>
+            <p><a href="#order">Order Now</a> | <a href="#menu">View Menu</a></p>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>Starters</li>
+                <li>Main Course</li>
+                <li>Indian Food</li>
+                <li>Chinese Food</li>
+                <li>Desserts</li>
+                <li>Beverages</li>
+            </ul>
+
+            <table border="1">
+                <caption>Restaurant Menu</caption>
+                <tr>
+                    <th>Item</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Paneer Tikka</td>
+                    <td>Starter</td>
+                    <td>Veg</td>
+                    <td>₹220</td>
+                    <td>Available</td>
+                    <td>Grilled cottage cheese with spices.</td>
+                </tr>
+                <tr>
+                    <td>Veg Biryani</td>
+                    <td>Main Course</td>
+                    <td>Veg</td>
+                    <td>₹250</td>
+                    <td>Available</td>
+                    <td>Fragrant rice cooked with vegetables.</td>
+                </tr>
+                <tr>
+                    <td>Butter Chicken</td>
+                    <td>Main Course</td>
+                    <td>Non-Veg</td>
+                    <td>₹320</td>
+                    <td>Available</td>
+                    <td>Chicken cooked.</td>
+                </tr>
+                <tr>
+                    <td>Dal Makhani</td>
+                    <td>Indian</td>
+                    <td>Veg</td>
+                    <td>₹190</td>
+                    <td>Available</td>
+                    <td>Creamy black lentils with spices.</td>
+                </tr>
+                <tr>
+                    <td>Hakka Noodles</td>
+                    <td>Chinese</td>
+                    <td>Veg</td>
+                    <td>₹210</td>
+                    <td>Available</td>
+                    <td>Stir-fried.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ol>
+                <li>Choose food from the menu.</li>
+                <li>Select your order type.</li>
+                <li>Enter delivery or visit details.</li>
+                <li>Confirm your order.</li>
+                <li>Receive your meal.</li>
+            </ol>
+
+            <dl>
+                <dt>Dine-in</dt>
+                <dd>Enjoy your meal at our restaurant.</dd>
+                <dt>Takeaway</dt>
+                <dd>Order food and collect it from the restaurant.</dd>
+                <dt>Delivery</dt>
+                <dd>Get your order delivered to your address.</dd>
+                <dt>Reservation</dt>
+                <dd>Reserve a table before visiting the restaurant.</dd>
+            </dl>
+
+            <h3>Kitchen Video</h3>
+            <video controls width="700">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+            <h3>Chef Message Audio</h3>
+            <audio controls>
+                <source src="explame.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <h3>Restaurant Location</h3>
+            <iframe src="https://www.google.com/maps?q=Noida%20India&output=embed" width="700" height="300"
+                title="Restaurant location"></iframe>
+        </section>
+
+        <aside>
+            <h2>Useful Information</h2>
+            <p><a href="#menu">Menu</a> | <a href="#order">Order</a> | <a href="#services">Services</a></p>
+            <p>Currency: ₹ | GST: 5% | Offer: 10% off </p>
+            <p>Fresh food &amp; great taste &copy; 2026</p>
+        </aside>
+
+        <section id="order">
+            <h2>Enquiry / Order Form</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name" required><br>
+
+                <label>Phone:</label>
+                <input type="tel" name="phone" required><br>
+
+                <label>Email:</label>
+                <input type="email" name="email" required><br>
+
+                <label>Order Type:</label>
+                <select name="order_type">
+                    <option>Dine-in</option>
+                    <option>Takeaway</option>
+                    <option>Delivery</option>
+                    <option>Reservation</option>
+                </select><br>
+
+                <label>Date:</label>
+                <input type="date" name="date"><br>
+
+                <label>Time:</label>
+                <input type="time" name="time"><br>
+
+                <label>Item:</label>
+                <select name="item">
+                    <option>Paneer Tikka</option>
+                    <option>Veg Biryani</option>
+                    <option>Butter Chicken</option>
+                    <option>Dal Makhani</option>
+                    <option>Hakka Noodles</option>
+                    <option>Chilli Chicken</option>
+                </select><br>
+
+                <label>Category:</label>
+                <select name="category">
+                    <option>Starter</option>
+                    <option>Main Course</option>
+                </select><br>
+
+                <label>Quantity:</label>
+                <input type="number" name="quantity" min="1"><br>
+
+                <label>Address:</label>
+                <textarea name="address" rows="4" cols="50"></textarea><br>
+
+                <label>Instructions:</label>
+                <textarea name="instructions" rows="4" cols="50"></textarea><br>
+
+                <input type="checkbox" name="consent" required> I confirm my order details are correct<br><br>
+                <button type="submit">Submit Order</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Restaurant &amp; Food Delivery Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
